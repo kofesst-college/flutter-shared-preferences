@@ -1,0 +1,22 @@
+name: pr5
+description: Flutter app using shared preferences
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-444.0.dev <3.0.0'
+
+dependencies:
+  shared_preferences: ^2.0.15
+  flutter_bloc: ^8.1.1
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
